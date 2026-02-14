@@ -112,7 +112,7 @@
     padding-top: 10px;
     border-radius: 15px;
 }
-.order .form input, .order .form select{
+.order .form .inp{
     width: 31rem;
     background-color: #0f1628;
 }
