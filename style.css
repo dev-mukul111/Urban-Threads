@@ -1,0 +1,118 @@
+.navigation{
+    background-color: #131b2e;
+    box-shadow: 1px 1px 1px white;
+}
+.navigation .nav-link{
+    color: white;
+}
+.navigation .cart{
+    background-color: #10182b;
+    border: solid 1px white;
+    border-radius: 25px;
+}
+.navigation .fa-cart-shopping{
+    color: white;
+}
+.banner{
+    background-color: #131b2e;
+    color: white;
+    padding-top: 50px;
+}
+.banner .para{
+    font-size: 13px;
+}
+.banner .collection{
+    background-color: #fb7367;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.banner .order{
+    background-color: #101729;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid rgb(194, 193, 193);
+}
+.banner .r-1, .banner .first h6, .banner .second h6, .collection h6, .say h6{
+    font-weight: bold;
+}
+.banner .r-2, .banner .first p, .banner .second p, .collection p, .say p{
+    font-size: 13px;
+    color: rgb(216, 216, 216);
+}
+.banner .first{
+    background: #1B46C6;
+    background: linear-gradient(90deg,rgba(27, 70, 198, 1) 0%, rgba(3, 6, 23, 1) 40%);
+    padding: 17px;
+    border-radius: 15px;
+}
+.banner .new{
+    background: inherit;
+    color: #e26455;
+    border: 1px solid #fc705f;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.banner .second{
+    padding: 17px;
+    background: linear-gradient(90deg, rgba(3, 6, 23, 1) 61%, rgba(31, 171, 82, 1) 100%);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.collection,.say{
+    background-color: #020516;
+    color: white;
+    padding-top: 30px;
+}
+.collection .card{
+    background-color: #0f1628;
+    color: white;
+}
+.collection .card .add{
+    width: 15rem;
+    background: linear-gradient(90deg, rgba(49, 202, 85, 1) 50%, rgba(146, 226, 53, 1) 100%);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.say .reviews{
+     background-color: #0f1628;
+}
+.say .letter{
+    background-color: #12abb1;
+    border-radius: 50%;
+}
+.say .name .fa-star{
+    color: #f4de64;
+}
+.say .say-1{
+    font-size: 13px;
+    color: rgb(216, 216, 216);
+}
+.say .col-xl-4{
+    font-size: 15px;
+    color: rgb(216, 216, 216);
+}
+.order{
+    background-color: #010207;
+    padding-top: 30px;
+    color: white;
+}
+.order .font{
+    font-size: 13px;
+    color: rgb(216, 216, 216);
+}
+.order .form{
+    background: #0f1628;
+    border: 1px solid #d2d2d2;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+.order .form input, .order .form select{
+    width: 31rem;
+    background-color: #0f1628;
+}
