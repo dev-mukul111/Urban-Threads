@@ -126,3 +126,11 @@
     width: 31rem;
     border-radius: 15px;
 }
+.footer{
+    background-color: #010207;
+    padding-top: 30px;
+    color: rgb(216, 216, 216);
+}
+.footer .nav-link{
+    color: rgb(216, 216, 216);
+}
