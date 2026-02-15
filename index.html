@@ -270,27 +270,51 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
-            $('#1').hover(function(){
+            $('#1').click(function(){
                 document.getElementById('1').classList.remove('fa-regular');
                 document.getElementById('1').classList.add('fa-solid');
+                if(document.getElementById('2').classList.contains('fa-solid')){
+                    document.getElementById('2').classList.remove('fa-solid');
+                    document.getElementById('2').classList.add('fa-regular');
+                    document.getElementById('3').classList.remove('fa-solid');
+                    document.getElementById('3').classList.add('fa-regular');
+                    document.getElementById('4').classList.remove('fa-solid');
+                    document.getElementById('4').classList.add('fa-regular');
+                    document.getElementById('5').classList.remove('fa-solid');
+                    document.getElementById('5').classList.add('fa-regular');
+                }
             }
         )
-            $("#2").hover(function(){
+            $("#2").click(function(){
                 document.getElementById('1').classList.remove('fa-regular');
                 document.getElementById('1').classList.add('fa-solid');
                 document.getElementById('2').classList.remove('fa-regular');
                 document.getElementById('2').classList.add('fa-solid');
+                if(document.getElementById('3').classList.contains('fa-solid')){
+                    document.getElementById('3').classList.remove('fa-solid');
+                    document.getElementById('3').classList.add('fa-regular');
+                    document.getElementById('4').classList.remove('fa-solid');
+                    document.getElementById('4').classList.add('fa-regular');
+                    document.getElementById('5').classList.remove('fa-solid');
+                    document.getElementById('5').classList.add('fa-regular');
+                }
             })
-            $("#3").hover(function(){
+            $("#3").click(function(){
                 document.getElementById('1').classList.remove('fa-regular');
                 document.getElementById('1').classList.add('fa-solid');
                 document.getElementById('2').classList.remove('fa-regular');
                 document.getElementById('2').classList.add('fa-solid');
                 document.getElementById('3').classList.remove('fa-regular');
                 document.getElementById('3').classList.add('fa-solid');
+                if(document.getElementById('4').classList.contains('fa-solid')){
+                    document.getElementById('4').classList.remove('fa-solid');
+                    document.getElementById('4').classList.add('fa-regular');
+                    document.getElementById('5').classList.remove('fa-solid');
+                    document.getElementById('5').classList.add('fa-regular');
+                }
                 
             })
-            $("#4").hover(function(){
+            $("#4").click(function(){
                 document.getElementById('1').classList.remove('fa-regular');
                 document.getElementById('1').classList.add('fa-solid');
                 document.getElementById('2').classList.remove('fa-regular');
@@ -299,9 +323,13 @@
                 document.getElementById('3').classList.add('fa-solid');
                 document.getElementById('4').classList.remove('fa-regular');
                 document.getElementById('4').classList.add('fa-solid');
+                if(document.getElementById('5').classList.contains('fa-solid')){
+                    document.getElementById('5').classList.remove('fa-solid');
+                    document.getElementById('5').classList.add('fa-regular');
+                }
                 
             })
-            $("#5").hover(function(){
+            $("#5").click(function(){
                 document.getElementById('1').classList.remove('fa-regular');
                 document.getElementById('1').classList.add('fa-solid');
                 document.getElementById('2').classList.remove('fa-regular');
