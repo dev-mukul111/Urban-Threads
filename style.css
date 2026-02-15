@@ -1,3 +1,10 @@
+.scale{
+    transition: 0.3s;
+}
+.scale:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 .navigation{
     background-color: #131b2e;
     box-shadow: 1px 1px 1px white;
@@ -6,8 +13,8 @@
     color: white;
     transition: 0.3s;
 }
-.navigation .nav-link:hover{
-    color: rgb(200, 199, 199);
+.navigation .nav-link:hover,.footer .nav-link:hover{
+    color: rgb(216, 216, 216);
     transform: scale(1.05);
     transition: 0.3s;
 }
@@ -18,6 +25,12 @@
 }
 .navigation .fa-cart-shopping{
     color: white;
+    transition: 0.3s;
+}
+.navigation .fa-cart-shopping:hover{
+    color: #fb7367;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 .banner{
     background-color: #131b2e;
@@ -126,7 +139,7 @@
     padding-bottom: 10px;
     border-radius: 15px;
 }
-.order .form .inp{
+.order .form .inp, .order .form textarea{
     width: 31rem;
     background-color: #0f1628;
 }
@@ -146,6 +159,7 @@
 }
 .footer .nav-link{
     color: rgb(216, 216, 216);
+    transition: 0.3s;
 }
 /* .review-form{
     background-color: #1c1e28;
