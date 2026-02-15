@@ -42,7 +42,7 @@
     color: white;
     border: 1px solid rgb(194, 193, 193);
 }
-.banner .r-1, .banner .first h6, .banner .second h6, .collection h6, .say h6, .order .review-form h5{
+.banner .r-1, .banner .first h6, .banner .second h6, .collection h6, .say h6, .order .review-form-place h5{
     font-weight: bold;
 }
 .banner .r-2, .banner .first p, .banner .second p, .collection p, .say p{
@@ -106,12 +106,13 @@
     background-color: #010207;
     padding-top: 30px;
     color: white;
+    position: relative;
 }
 .order .font{
     font-size: 13px;
     color: rgb(216, 216, 216);
 }
-.order .review-form .rate-btn{
+.order .review-form-place .rate-btn{
     background-color: #fa7228;
     border-radius: 15px;
     color: white;
@@ -140,9 +141,34 @@
 }
 .footer{
     background-color: #010207;
-    padding-top: 30px;
+    padding-top: 100px;
     color: rgb(216, 216, 216);
 }
 .footer .nav-link{
     color: rgb(216, 216, 216);
+}
+/* .review-form{
+    background-color: #1c1e28;
+    
+} */
+.offcanvas{
+    background-color: #0f1628;
+    color: white;
+    border-radius: 25px;
+}
+.offcanvas .form input, .offcanvas .form textarea{
+    background-color: #0f1628;
+    width: 18rem;
+}
+.offcanvas .form .fa-star{
+    color: #f4de64;
+}
+.offcanvas .form .post{
+    background-color: #fa7228;
+    border-radius: 15px;
+    width: 18rem;
+}
+.offcanvas .btn-close{
+    --bs-btn-close-color: white;
+    background-color: red;
 }

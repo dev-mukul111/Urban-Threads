@@ -188,7 +188,7 @@
                     </ul>
                     <div class="review-form-place">
                         <h5>Like Our Products!</h5>
-                        <button class="rate-btn">Rate Us</button>
+                        <button class="rate-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Rate Us</button>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -244,26 +244,80 @@
         </div>
     </div>
 
-    <div class="review-form">
-        <div class="container">
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-center" id="offcanvasWithBothOptionsLabel">Rate Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
             <div class="form">
-                <label for="name">Full Name</label><br>
-                <input type="text" name="name" placeholder="Enter your name"><br>
-                <label for="email">Email</label><br>
-                <input type="email" placeholder="your@example.com"  class="inp" name="email"><br>
-                <label for="phone">Phone number</label><br>
-                <input type="number" name='phone' placeholder="+91"  class="inp"><br>
-                <label for="comment">Comment</label><br>
-                <textarea name="comment" id="" placeholder="Write your comment here"></textarea><br>
-                <label for="rate-us">How much would you like to rate us?</label>
-                <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" name="name" placeholder="Enter your name"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="your@example.com"  class="inp" name="email"><br>
+                    <label for="phone">Phone number</label><br>
+                    <input type="number" name='phone' placeholder="+91"  class="inp"><br>
+                    <label for="comment">Comment</label><br>
+                    <textarea name="comment" id="" placeholder="Write your comment here"></textarea><br>
+                    <label for="rate-us">How much would you like to rate us?</label>
+                    <p><i class="fa-regular fa-star" id="1"></i><i class="fa-regular fa-star" id="2"></i><i class="fa-regular fa-star" id="3"></i><i class="fa-regular fa-star" id="4"></i><i class="fa-regular fa-star" id="5"></i></p>
                 <button class="post">Post the review</button>
             </div>
         </div>
     </div>
-
-    
-    <!-- Bootstrap -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('#1').hover(function(){
+                document.getElementById('1').classList.remove('fa-regular');
+                document.getElementById('1').classList.add('fa-solid');
+            }
+        )
+            $("#2").hover(function(){
+                document.getElementById('1').classList.remove('fa-regular');
+                document.getElementById('1').classList.add('fa-solid');
+                document.getElementById('2').classList.remove('fa-regular');
+                document.getElementById('2').classList.add('fa-solid');
+            })
+            $("#3").hover(function(){
+                document.getElementById('1').classList.remove('fa-regular');
+                document.getElementById('1').classList.add('fa-solid');
+                document.getElementById('2').classList.remove('fa-regular');
+                document.getElementById('2').classList.add('fa-solid');
+                document.getElementById('3').classList.remove('fa-regular');
+                document.getElementById('3').classList.add('fa-solid');
+                
+            })
+            $("#4").hover(function(){
+                document.getElementById('1').classList.remove('fa-regular');
+                document.getElementById('1').classList.add('fa-solid');
+                document.getElementById('2').classList.remove('fa-regular');
+                document.getElementById('2').classList.add('fa-solid');
+                document.getElementById('3').classList.remove('fa-regular');
+                document.getElementById('3').classList.add('fa-solid');
+                document.getElementById('4').classList.remove('fa-regular');
+                document.getElementById('4').classList.add('fa-solid');
+                
+            })
+            $("#5").hover(function(){
+                document.getElementById('1').classList.remove('fa-regular');
+                document.getElementById('1').classList.add('fa-solid');
+                document.getElementById('2').classList.remove('fa-regular');
+                document.getElementById('2').classList.add('fa-solid');
+                document.getElementById('3').classList.remove('fa-regular');
+                document.getElementById('3').classList.add('fa-solid');
+                document.getElementById('4').classList.remove('fa-regular');
+                document.getElementById('4').classList.add('fa-solid');
+                document.getElementById('5').classList.remove('fa-regular');
+                document.getElementById('5').classList.add('fa-solid');
+                
+            })
+            
+        })
+        </script>
+        <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
