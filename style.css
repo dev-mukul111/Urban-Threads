@@ -142,6 +142,7 @@
 .order .form .inp, .order .form textarea{
     width: 31rem;
     background-color: #0f1628;
+    padding-left:10px
 }
 .order .form .select{
     background-color: #0f1628;
